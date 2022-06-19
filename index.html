@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CREATIVE DESIGN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&family=Lexend+Deca&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <style>
+        *{
+            margin: 0px;
+        }
+
+        @media  screen and (max-width:1000px){
+            .fifth-sec{
+                width: 100%;
+                display: block;
+            }
+           .second-sec{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           }
+           .third-sec{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           }
+           .fourth-sec{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           }
+           .fifth-sec{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+           }
+           .fifth-sec{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+           }
+           .floating{
+            display: block;
+            width:100%;
+            position: relative;
+            justify-content: center;
+           }
+        }
+
+        
+        .first-container{
+            background-image:url("bg-hero-desktop.svg") ;
+            object-fit: contain;
+            background-color:hsl(193, 100%, 96%)
+        }
+        .first-sec{
+            display: flex; 
+            margin-left: -40px;
+            margin-right: -40p;
+        }
+        body{
+            max-width: 100%;
+        }
+        .btn1{
+            margin-top: 73px;
+            margin-left: 850px;
+            font-size: 15px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            padding: 7px 50px 0px 50px;
+            box-shadow: 5px 5px 5px 5px hsla(192, 100%, 96%, 0.863);
+            border-radius: 15px;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.863);
+        }
+        
+        .logo{
+            margin:50px 0px 0px 40px;
+            padding: 10px 9px 10px 40px;
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+        
+        }
+        .second-sec{
+            display: flex;
+            
+            padding-bottom: 120px
+        ;
+            margin-left: 30px;
+            margin-top: 80px;
+        }
+        .second-sec1{
+            margin-top: 70px;
+            width: 48%;
+        }
+        .second-sec2{
+            height: 400px;
+            margin-right:5%;
+        }
+        .second-sec-header{
+            font-size: 40px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            width: 450px;
+            line-height: -10px;
+        }
+        .second-sec-text{
+            font-size: 18px;
+            font-family: 'Open Sans', sans-serif;
+            width: 77%;
+            padding: 35px 0px 35px 0px;
+            line-height: -15px;
+        }
+        .btn2{
+            padding: 15px 55px 15px 55px;
+            border-radius: 25px;
+
+            font-weight: 700;
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            background-color:hsl(322, 100%, 66%);
+            border-style: none;
+        }
+        .third-sec{
+            display:flex;
+            margin: auto;
+            margin-top: 14%;
+            width: 87%;
+            padding: 40px 0px 40px 0px;
+            box-shadow: 2px 2px 5px rgba(86, 136, 228, 0.863);
+
+        }
+        .third-sec1{
+            margin-left: 8%;
+            margin-top: 10%;
+            width: 40%;
+        }
+        .third-sec2{
+            width: 50%;
+            margin-left: 20px;
+        }
+        .third-sec1-header{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        .third-sec1-text{
+            line-height:-15px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            color:rgb(133, 131, 131);
+        }
+        .fourth-sec{
+            display:flex;
+            margin: auto;
+            margin-top: 14%;
+            width: 87%;
+            padding: 40px 0px 40px 0px;
+            box-shadow: 2px 2px 5px rgba(86, 136, 228, 0.863);
+        }
+        .fourth-sec1{
+            width: 50%;
+            margin-right: 20px;
+        }
+        .fourth-sec2{
+            margin-left: 4%;
+            margin-top: 10%;
+            width: 43%;
+            height: 100px;
+        }
+        .fourth-sec2-header{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        .fourth-sec2-text{
+            line-height:-15px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+        }
+        .fifth-sec{
+            display:flex;
+            margin: auto;
+            margin-top: 14%;
+            width: 87%;
+            font-family: 'Open Sans', sans-serif;
+            height: 360px;
+            margin-bottom: 20%;
+            box-shadow: 2px 2px 5px rgba(86, 136, 228, 0.863);
+            padding: 40px 0px 40px 0px;
+            border-radius: 20px;
+        }
+        .fifth-sec1{
+            margin-left: 8%;
+            margin-top: 10%;
+            width: 40%;
+            height: 100px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .fifth-sec1-header{
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        .fifth-sec1-text{
+            line-height:-15px;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+        }
+        .fifth-sec2{
+            width: 50%;
+            margin-left: 20px;
+        }
+        .six-sec{
+            display: flex;
+            width: 87%;
+            margin: auto;
+            margin-top: 14%;
+            padding-left:20px;
+            background-color: hsl(192, 100%, 9%);
+            color: white;
+            font-family: 'Open Sans', sans-serif;
+            padding-top: 170px;
+        }
+        .six-sec1{
+            width: 33%;
+        }
+        .six-sec1-text1{
+            display: flex;
+            margin-top: 30px;
+        }
+        .six-sec1-text2{
+            display: flex;
+        }
+        .six-sec1-text3{
+            display: flex;
+        }
+        .six-sec2{
+            width: 21.75%;
+            text-align: center;
+        }
+        .six-sec3{
+            width: 21.75%;
+            text-align: center;
+        }
+        .six-sec4{
+            width: 21.75%;
+            text-align: center;
+            display: flex;
+            margin: 77px 0px 0px 30px;
+        }
+        .six-sec1-header{
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+        }
+        .main-six-sec{
+            background-color: hsl(192, 100%, 9%);
+        }
+        footer{
+            text-align: end;
+            padding: 25px 75px 45px 0px;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+        }
+        .floating{
+            width: 55%;
+            position: absolute;
+            left:330px;
+            bottom: -2200px;
+            height: 200px;
+            margin: auto;
+            color: black;
+            font-family:'Poppins', sans-serif ;
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+            background-color: white;
+            box-shadow: 2px 2px 5px rgba(86, 136, 228, 0.863);
+            border-radius: 10px;
+        }
+        .floating-button{
+            padding: 20px 85px 20px 85px;
+            margin: 60px 0px 0px 0px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            background-color:hsl(322, 100%, 66%);
+            border-radius:30px;
+            color: white;
+            border-style: none;
+        }
+        .floating-text{
+            position: relative;
+            top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="first-container">
+        <div class="first-sec">
+            <div class="logo">
+                <img src="logo.svg" alt="my-logo" style="width:170px;object-fit:contain;">
+            </div>
+                <span class="btn1">Try It Free</span>
+        </div>
+        <div class="second-sec">
+            <div class="second-sec1">
+                <p class="second-sec-header">Build The Community Your Fans will Love</p>
+                <p class="second-sec-text">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion</p>
+                <button class="btn2">Get Started For Free</button>
+            </div>
+            <div class="second-sec2"style="width:50px;">
+                <img src="illustration-mockups.svg" style="width:650px;">
+            </div>
+        </div>
+        </div>
+
+        <div class="third-sec">
+            <div  class="third-sec1">
+                <p class="third-sec1-header">Grow Together</p>
+                <p class="third-sec1-text">Generate meaningful discussion with your audience and build a strong royal community. Think on the insightful conversion you missed out on the feedback form</p>
+            </div>
+            <div class="third-sec2"><img src="illustration-grow-together.svg" alt="Grow Together" style="width:400px; position:relative; right:-150px"></div>
+        </div>
+
+        <div class="fourth-sec">
+            <div class="fourth-sec1"><img src="illustration-flowing-conversation.svg" alt="Flowing conversation" style="width:400px; position:relative; left:40px"></div>
+            <div class="fourth-sec2">
+                <p class="fourth-sec2-header">Flowing Conversation</p>
+                <p class="fourth-sec2-text"> You woundn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+            </div>
+        </div>
+
+        <div class="fifth-sec">
+            <div class="fifth-sec1">
+                <p class="fifth-sec-header">Your users</p>
+                <p class="fifth-sec1-text">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your user's can start chatting immediately.</p>
+            </div>
+            <div class="fifth-sec2"><img src="illustration-your-users.svg" alt="Your Users" style="width:400px; position:relative; right:-150px"></div>
+        </div>
+
+        <div class="floating">
+            <div class="floating-text">Ready To Build Your Community?</div>
+            <button class="floating-button">Get started for free</button>
+        </div>
+
+        <div class="main-six-sec">
+        <div class="six-sec">
+            
+            <div class="six-sec1">
+            
+                <p class="six-sec1-header"><img src="blue.svg" alt="my-logo"></p>
+            
+                <div class="six-sec1-text1">
+                    <p><img src="icon-location.svg" alt="MY LOCATION"  style="width:15px;height:20px; object-fit:contain"></p>
+                    <p style="padding:0px 0px 25px 25px ;font-size:18px"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmond tempor incididunt ut labore et dolore magna aligua</p>
+                </div>
+                <div class="six-sec1-text2">
+                    <p><img src="icon-phone.svg" alt="MY PHONE" style="width:15px;height:20px; object-fit:contain"></p>
+                   <p style="padding:0px 0px 25px 25px ; font-size:18px">+1-543-123-4567</p>
+                </div>
+                <div class="six-sec1-text3">
+                    <p><img src="icon-email.svg" alt="MY EMAIL"  style="width:15px;height:20px; object-fit:contain"></p>
+                    <p style="padding:0px 0px 25px 25px ; font-size:18px">example@huddle.com</p>
+                </div>
+            </div>
+            <div class="six-sec2">
+                <p style="padding:76px 0px 24px 0px ;font-size:18px">About Us</p>
+                <p style="padding:0px 0px 27px 0px ;font-size:18px">What We Do</p>
+                <p>FAQ</p>
+            </div>
+            <div class="six-sec3">
+                <p style="padding:76px 0px 24px 0px ;font-size:18px">Career</p>
+                <p style="padding:0px 0px 27px 0px ;font-size:18px">Blog</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="six-sec4">
+                <p style="padding: 0px 25px 0px 0px; font-size:18px"><span class="facebook" style=" font-size:18px;border: 1px solid; border-radius:50%; padding:5px 10px 5px 10px"><i class="fa-brands fa-facebook-f"></i></span></p>
+                <p style="padding: -5px 25px 0px 0px;"><span class="twitter" style=" font-size:18px;border: 1px solid; border-radius:50%; padding:6px 8px 6px 8px"><i class="fa-brands fa-twitter"></i></span></p>
+                <p style="margin:-6px 20px 0px 30px;" class="instagram"><span><i class="fa-brands fa-instagram" style="border: 1px solid; border-radius:50%; padding:7px 8px 7px 8px"></i></span></p>
+            </div>
+        </div>
+        <footer>
+            <p>&copy;copyright 2008 Huddle. All right reserved.</p>
+        </footer>
+        </div>
+    </div>
+</body>
+</html>
